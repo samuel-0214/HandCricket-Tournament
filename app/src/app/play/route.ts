@@ -25,7 +25,7 @@ const TOURNAMENT_ADMIN = new PublicKey("9AhjZ7ybup47fvJNvFMCxhxVz3qs4serqVEXWmGA
 let tournamentActive = true;
 let playersRegistered = 0;
 const MAX_PLAYERS = 100;
-const ENTRY_FEE = 0.1 * LAMPORTS_PER_SOL; // 0.1 SOL in lamports
+// const ENTRY_FEE = 0.1 * LAMPORTS_PER_SOL; // 0.1 SOL in lamports
 
 // Maps to store player data
 const registeredPlayers = new Map<string, boolean>();
