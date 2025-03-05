@@ -10,7 +10,6 @@ import {
   clusterApiUrl,
   ComputeBudgetProgram,
   Connection,
-  LAMPORTS_PER_SOL,
   PublicKey,
   SystemProgram,
   Transaction,
